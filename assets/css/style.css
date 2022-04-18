@@ -76,12 +76,18 @@ tfoot th:last-child {
   border-bottom-right-radius: var(--border-radius);
 }
 tfoot th > button {
+  min-width: 80px;
+  width: 100%;
+  max-width: 100px;
   box-sizing: border-box;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 30px;
   padding-left: 30px;
   text-transform: uppercase;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 h1 {
