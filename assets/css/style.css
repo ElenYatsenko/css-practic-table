@@ -78,7 +78,7 @@ tfoot th:last-child {
 tfoot th > button {
   min-width: 80px;
   width: 100%;
-  max-width: 100px;
+  max-width: 120px;
   box-sizing: border-box;
   padding-top: 10px;
   padding-bottom: 10px;
